@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+:root {
+  font-family: "Source Serif 4", sans-serif;
+  font-size: 62.5%;
+}
+
+main {
+  max-width: 32rem;
+  margin-inline: auto;
+  padding: 5.3rem 4rem;
+  box-sizing: content-box;
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+img {
+  width: 100%;
+  margin-block: 3.2rem;
+}
+
+p {
+  max-width: 30.8rem;
+  font-size: 1.4rem;
+}
+
+.recipe-about {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+body {
+  color: #a54328;
+  font-size: 1.6rem;
+}
+
+h1,
+h2 {
+  font-size: 2.8rem;
+  line-height: 3.6rem;
+}
+
+h2 {
+  margin-bottom: 3.2rem;
+}
+
+p,
+strong,
+li {
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+}
+
+ul,
+ol {
+  margin-left: 2.4rem;
+}
+
+ul {
+  margin-bottom: 3.2rem;
+}
+
+button {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  padding: 0.8rem 1.2rem;
+  background-color: #a54328;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  margin-top: 3.2rem;
+}
+
+@media (min-width: 1120px) {
+  body {
+    background-image: url("../images/background.svg");
+  }
+
+  main {
+    margin-top: 9rem;
+    max-width: fit-content;
+    flex-direction: row;
+    gap: 16rem;
+  }
+  .recipe-about {
+    max-width: 43.5rem;
+  }
+
+  .informations-ingredients {
+    max-width: 52.5rem;
+  }
+
+  h1,
+  h2 {
+    font-size: 4.5rem;
+    line-height: 5rem;
+  }
+
+  p {
+    max-width: 43.5rem;
+  }
+
+  p,
+  li,
+  strong {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+
+  button {
+    padding: 1rem 2rem;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+  }
+}
